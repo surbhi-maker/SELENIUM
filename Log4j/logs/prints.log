@@ -1,0 +1,4 @@
+18:40:22.528 [main] ERROR Demo.Demo -  3 Print Error log 2
+18:40:22.534 [main] ERROR Demo.Demo -  4 Print Error log1 : button is missing
+18:40:22.534 [main] ERROR Demo.Demo -  5 Print Error log 2 : element not visible
+18:40:22.534 [main] INFO  Demo.Demo -  6 print info log
