@@ -21,6 +21,9 @@ public class Screenshot {
 		 File scrShot =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		 
 		 FileUtils.copyFile(scrShot, new File("D:\\Users\\Screenshot.png"));
+		 
+//		 File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//		 FileUtils.copyFile(src, new File("path"));
 	}
 
 }
