@@ -20,14 +20,14 @@ public class FrenchTranslation {
 		driver.get("https://xcelerate.qa.elementfleet.com/web/common/doLogin");
 		
 		
-		driver.findElement(By.xpath("//input[@name = 'username']")).sendKeys("Orderint2");
+		driver.findElement(By.xpath("//input[@name = 'username']")).sendKeys("Bill_QA_Su");
 		driver.manage().window().maximize();
-		driver.findElement(By.xpath("//input[@name = 'password']")).sendKeys("TestingQA@321");
+		driver.findElement(By.xpath("//input[@name = 'password']")).sendKeys("testqa12");
 		driver.findElement(By.id("signinBtn")).click();
 		driver.manage().window().maximize();
 		
-		Thread.sleep(2000L);
-		driver.findElement(By.xpath("//button[@id='yes']")).click();
+		Thread.sleep(7000L);
+//for now		driver.findElement(By.xpath("//button[@id='yes']")).click();
 		System.out.println("click on setting");
 		driver.findElement(By.xpath("//a[@data-sectionid='settingsSlidMenu']")).click();
 		//
