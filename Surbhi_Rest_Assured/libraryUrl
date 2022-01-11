@@ -1,0 +1,43 @@
+
+
+Add book : Post
+http://216.10.245.166/Library/Addbook.php
+
+payload: 
+{
+    "name": "Learn Appium Automation with java",
+    "isbn": "1234",
+    "aisle": "009",
+    "author": "Surbhi"
+}
+
+Respose
+{
+    "Msg": "successfully added",
+    "ID": "1234009"
+}
+
+
+2) Get book by ID: Get
+http://216.10.245.166/Library/GetBook.php?ID=1234009
+
+response
+[
+    {
+        "book_name": "Learn Appium Automation with java",
+        "isbn": "1234",
+        "aisle": "9",
+        "author": "Surbhi"
+    }
+]
+
+3). Get book by Author:
+
+
+4). Delete Book: POST
+
+http://216.10.245.166/Library/DeleteBook.php
+Payload:
+{
+    "ID": "1234009"
+}

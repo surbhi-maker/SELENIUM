@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7149" started-at="2021-11-30T19:50:15 IST" finished-at="2021-11-30T19:50:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7149" started-at="2021-11-30T19:50:15 IST" finished-at="2021-11-30T19:50:22 IST">
+      <class name="Extent_Reports.ExtentReports.pages.StandaloneExtentReport">
+        <test-method status="PASS" signature="config()[pri:0, instance:Extent_Reports.ExtentReports.pages.StandaloneExtentReport@3e57cd70]" name="config" is-config="true" duration-ms="136" started-at="2021-11-30T19:50:15 IST" finished-at="2021-11-30T19:50:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="initialTest()[pri:0, instance:Extent_Reports.ExtentReports.pages.StandaloneExtentReport@3e57cd70]" name="initialTest" duration-ms="6489" started-at="2021-11-30T19:50:15 IST" finished-at="2021-11-30T19:50:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:Extent_Reports.ExtentReports.pages.StandaloneExtentReport@3e57cd70]" name="testCase2" duration-ms="4" started-at="2021-11-30T19:50:21 IST" finished-at="2021-11-30T19:50:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:Extent_Reports.ExtentReports.pages.StandaloneExtentReport@3e57cd70]" name="testCase3" duration-ms="3" started-at="2021-11-30T19:50:21 IST" finished-at="2021-11-30T19:50:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testCase4()[pri:0, instance:Extent_Reports.ExtentReports.pages.StandaloneExtentReport@3e57cd70]" name="testCase4" duration-ms="2" started-at="2021-11-30T19:50:21 IST" finished-at="2021-11-30T19:50:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Extent_Reports.ExtentReports.pages.StandaloneExtentReport@3e57cd70]" name="tearDown" is-config="true" duration-ms="433" started-at="2021-11-30T19:50:21 IST" finished-at="2021-11-30T19:50:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Extent_Reports.ExtentReports.pages.StandaloneExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

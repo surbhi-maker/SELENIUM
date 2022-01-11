@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="58" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="58" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+      <class name="Package_Name.Maven_Project.AppiumTest">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Package_Name.Maven_Project.AppiumTest@3f49dace]" name="Demo" duration-ms="1" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="testProfile()[pri:0, instance:Package_Name.Maven_Project.AppiumTest@3f49dace]" name="testProfile" duration-ms="1" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfile -->
+      </class> <!-- Package_Name.Maven_Project.AppiumTest -->
+      <class name="Package_Name.Maven_Project.SeleniumTest">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Package_Name.Maven_Project.SeleniumTest@1e397ed7]" name="Demo" duration-ms="1" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="testProfile()[pri:0, instance:Package_Name.Maven_Project.SeleniumTest@1e397ed7]" name="testProfile" duration-ms="0" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfile -->
+      </class> <!-- Package_Name.Maven_Project.SeleniumTest -->
+      <class name="Package_Name.Maven_Project.APITest">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Package_Name.Maven_Project.APITest@402a079c]" name="Demo" duration-ms="5" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="testProfile()[pri:0, instance:Package_Name.Maven_Project.APITest@402a079c]" name="testProfile" duration-ms="0" started-at="2021-11-30T17:22:42 IST" finished-at="2021-11-30T17:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfile -->
+      </class> <!-- Package_Name.Maven_Project.APITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

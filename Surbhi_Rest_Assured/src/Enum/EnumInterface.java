@@ -4,6 +4,8 @@ public interface EnumInterface {
 	
 	 public enum OrderingRestOperations {
 		
+		 
+		 APPLICATION_AUTH_TOKEN("ApplicationAuthToken"),
 		 REST_CALL_SEPARATOR("-------------------------------------------END Of REST CALL------------------------------------------------");
 		 
 		 private final String value;
