@@ -6,6 +6,7 @@
       <class name="Extent_Reports.ExtentReportDemo.StandaloneExtentNewReport">
         <methods>
           <include name="tearDown"/>
+          <include name="initialTest"/>
           <include name="testCase4"/>
           <include name="config"/>
         </methods>

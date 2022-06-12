@@ -26,6 +26,7 @@ public class Explicit_Wait {
 		System.out.println("Element found :" + alt.getText());
 		alt.accept();
 		
+		
 		//Example
 //		wait.until(ExpectedConditions.num);
 		/* returns

@@ -4,7 +4,7 @@ public class StringHandles {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str = "NEWPORT BEACH  ,CA 92660,";
+		String str = "NEWPORT BEACH          ,CA 92660,";
 		
 		String str1 =str.trim().replaceAll("\\s*\\,", ",");
 		System.out.println("String1: "+str1.replaceAll(",", ", ")+"space");

@@ -138,4 +138,8 @@ public class Utility {
 			js.executeScript("arguments[0].value=arguments[1];", waitForWebElement(locator ,driver) ,text);
 		}
 	}
+	
+	public static void closeBrowser(WebDriver driver) {
+		driver.quit();
+	}
 }

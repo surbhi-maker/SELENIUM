@@ -1,6 +1,7 @@
 package Stream;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -52,6 +53,17 @@ public class StreamExample {
 		System.out.println("find any : ");
 		 Stream.of("Surbhii", "ram" , "Surbhii" , "sai", "sai" , "ram").filter(s->s.startsWith("r")).limit(1).forEach(s->System.out.println(s));
 		
+		 System.out.println("num starts with 2");
+		 
+		Stream.of("2", "222" ,"342" , "54", "243" , "265").filter(e->e.startsWith("2")).forEach(e->System.out.println(e));
+		System.out.println("***************");
+		
+		List<Integer> num = Arrays.asList(2,764,222,243,231,276,654,765,354,28);
+		
+		num.stream()
+		.map(e->String.valueOf(e)).filter(e->e.startsWith("2"))
+//		.mapToInt(e->e)
+		.forEach(e->System.out.println(e));
 	}
 		
 }

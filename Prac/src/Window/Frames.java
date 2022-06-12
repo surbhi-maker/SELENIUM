@@ -25,7 +25,6 @@ public class Frames {
 		Actions a = new Actions(driver);
 		a.dragAndDrop(source, target).build().perform();
 		
-		
 	}
 
 }

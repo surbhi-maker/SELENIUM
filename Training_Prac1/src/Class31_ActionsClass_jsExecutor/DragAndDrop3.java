@@ -23,6 +23,7 @@ public class DragAndDrop3 {
 		WebElement src = driver.findElement(By.xpath("//div[@id='draggable']"));
 		WebElement target = driver.findElement(By.xpath("//div[@id='droppable']"));
 		
+		
 		/*	
 		action.dragAndDrop(driver.findElement(By.xpath("//div[@id='draggable']")), 
 				driver.findElement(By.xpath("//div[@id='droppable']"))).perform();
