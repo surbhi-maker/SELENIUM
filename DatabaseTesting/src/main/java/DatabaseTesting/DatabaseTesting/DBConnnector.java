@@ -46,9 +46,9 @@ public class DBConnnector {
 		 * @throws Exception
 		 */
 		public static String getMakeCode(String make) throws Exception {
-//			System.out.println("Db host name: " + CommonPage.getCredetialsData("orderingDbHostNameQA"));
-//			System.out.println("Db username: " + CommonPage.getCredetialsData("orderingDbUsernameQA"));
-//			System.out.println("Db password: " + CommonPage.getCredetialsData("orderingDbPasswordQA"));
+//			System.out.println("Db host name: " + CommonPage.getCredetialsData("DbHostNameQA"));
+//			System.out.println("Db username: " + CommonPage.getCredetialsData("UsernameQA"));
+//			System.out.println("Db password: " + CommonPage.getCredetialsData("PasswordQA"));
 //			String dbUrl = CommonPage.getCredetialsData("orderingDbHostNameQA");
 //			String username = CommonPage.getCredetialsData("orderingDbUsernameQA");
 //			String password = SimpleStringCipher.decrypt(CommonPage.getCredetialsData("orderingDbPasswordQA"));
